@@ -1,0 +1,50 @@
+Exception is an event that occurs during the execution of the program
+It disrupts the normal program flow
+It creates Exception object , which contain information about Error like:
+-Type of Exception and Message
+-Stack Trace etc
+RunTime system use this Exception Object and find the class which can handle it
+
+When Exception comes...Exception object is created
+
+If no one can handle the Exception , RunTime system terminate the program abruptly and print stack
+trace
+
+From where the problem happens till the starting point=>Stack Trace
+
+Topmost Parent Class is Object
+Child class is Throwable
+=>Error
+=>Exception
+
+Diff b/w Error(not able to control) and Exception(can handle and control the program)
+
+Error (JVM issues)
+-Out of Memory Error=>Cannot create no more objects in Heap
+-Stack Overflow
+
+Exceptions
+
+First Compile =============> Then Run
+
+Unchecked/RunTime Exceptions => Error is RunTime Exception
+
+ClassCastException
+Arithmetic Exception
+IndexOutOfBoundException: ArrayIndexOutOfBoundException, StringIndexOutOfBoundException
+NullPointer Exception
+Illegal Argument Exception :NumberFormat Exception
+
+
+
+
+Checked/CompileTime Exceptions
+
+ClassNotFoundException
+InterruptedException
+IOException : FileNotFoundException , EOFException, Socket Exception
+SQL Exception
+
+
+
+
